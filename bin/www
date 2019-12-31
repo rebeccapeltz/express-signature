@@ -25,7 +25,7 @@ var server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port,()=>{'Listening on http://localhost:${port}'});
+server.listen(port,'127.0.0.1',()=>{'Listening on http://127.0.0.1:${port}'});
 server.on('error', onError);
 server.on('listening', onListening);
 
@@ -87,4 +87,6 @@ function onListening() {
     ? 'pipe ' + addr
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
+  debug(`Listening on http://127.0.0.1:${port}`);
+
 }
