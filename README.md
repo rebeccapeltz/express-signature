@@ -37,12 +37,3 @@ worked
     /console/media_library/cms?api_key=944887911222188&cloud_name=picturecloud7&ml_id=ml_0&new_cms=true&pmHost=http://127.0.0.1:5500&signature=b2a6a6709319ae5bece6466dd22f2b6276fd808280e0c25f4b628edcff6f8e98&timestamp=1577650357255&username=rebeccapeltz%40gmail.com
 
 
-good string to sign
-cloud_name=picturecloud7&timestamp=1577659554173&username=rebeccapeltz@gmail.com0gfBB6thMQGvjos7Eo-tNjLcyVk
-
-bad string to sign
-cloud_name=picturelcoud7&timestamp=1577659634904&username=rebeccapeltz@gmail.com0gfBB6thMQGvjos7Eo-tNjLcyVk
-
-upload signature
-https://support.cloudinary.com/hc/en-us/articles/203817991-How-to-generate-a-Cloudinary-signature-on-my-own-
-
