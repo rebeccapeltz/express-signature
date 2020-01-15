@@ -12,7 +12,7 @@ API_SECRET=''
 ## Run the server
 The server is defined in /bin/www.  
  ```    
-$ DEBUG=express-lambda-sig:* npm start
+$ DEBUG=express-sig:* npm start
 ```
 1577646371222
 "b2ab0a00c068cbf26440275d6cae70568991a8c4e4ae5fb28cecff54f4364c4b"
